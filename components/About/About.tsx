@@ -1,5 +1,5 @@
 import Layout from '../Layout';
-import { faCoffee, faDesktop, faMobileScreen, faEye, faUserGroup } from '@fortawesome/free-solid-svg-icons'
+import { faDesktop, faMobileScreen, faEye, faUserGroup } from '@fortawesome/free-solid-svg-icons'
 import Blurb from './Blurb';
 
 

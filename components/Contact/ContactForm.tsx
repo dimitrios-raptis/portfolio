@@ -22,13 +22,13 @@ const ContactForm = () => {
     },
   })
   // const onSubmit = (data) => console.log(data)
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
   const onSubmit = () => {
     setSubmitSuccess(false);
 
     emailjs
-      .sendForm('service_dql1sru', 'template_8jc1jku', form.current, {
+      .sendForm('service_dql1sru', 'template_8jc1jku', form.current!, {
         publicKey: '8uRd9R07k0mseX1er',
       })
       .then(

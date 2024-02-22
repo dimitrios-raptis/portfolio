@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from 'next/script'
+
 import "./globals.css";
-<script src="https://kit.fontawesome.com/35b686dd9b.js" crossOrigin="anonymous"></script>
+<Script src="https://kit.fontawesome.com/35b686dd9b.js" crossOrigin="anonymous"></Script>
 
 const inter = Inter({ subsets: ["latin"] });
 

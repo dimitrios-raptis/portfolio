@@ -2,7 +2,11 @@ import { useRef } from 'react';
 import Image from "next/image"
 import Layout from '../Layout';
 
-const Intro = ({ scrollTo }) => {
+type Props = {
+  scrollTo: any;
+}
+
+const Intro = ({ scrollTo }: Props) => {
   return (
     <section className="bg-grey flex justify-between">
       <Layout>

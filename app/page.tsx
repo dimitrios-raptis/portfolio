@@ -9,10 +9,10 @@ import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
 
-  const scrollToContact = useRef();
+  const scrollToContact = useRef<HTMLDivElement>(null);
 
   const scrollTo = () => {
-    scrollToContact?.current?.scrollIntoView({ behavior: "smooth" });
+    scrollToContact.current!.scrollIntoView({ behavior: "smooth" });
   }
 
   return (
