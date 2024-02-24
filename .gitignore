@@ -5,3 +5,4 @@
 
 .next/*
 .env.local
+.env.production
