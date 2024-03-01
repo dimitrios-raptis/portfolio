@@ -1,12 +1,8 @@
-import { useRef } from 'react';
-import Image from "next/image"
+import Image from "next/image";
 import Layout from '../Layout';
+import ScrollLink from '../ScrollLink/ScrollLink';
 
-type Props = {
-  scrollTo: any;
-}
-
-const Intro = ({ scrollTo }: Props) => {
+const Intro = () => {
   return (
     <section className="bg-grey flex justify-between">
       <Layout>
@@ -18,14 +14,16 @@ const Intro = ({ scrollTo }: Props) => {
               <h2 className="text-xl sm:text-5xl lg:text-6xl mb-8">Front End Developer</h2>
             </div>
 
-            <button onClick={scrollTo} className="text-xl hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">Get in touch &#8594;</button>
+            <ScrollLink href='#contact' className="text-xl hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+              Get in touch &#8594;
+            </ScrollLink>
           </div>
 
           <Image src="/assets/images/ninja.png" alt="Hacker ninja image" width={600} height={600} className="object-contain w-1/2 lg:w-1/3" />
         </div>
       </Layout>
     </section >
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 import Layout from '../Layout';
 
 const Skills = () => {
@@ -28,14 +28,14 @@ const Skills = () => {
               <li>Storybook</li>
             </ul>
 
-            <Image src="/assets/images/ninja hacker.png" alt="Hacker ninja skills image" width={800} height={800} className="object-contain" />
+            <Image src="/assets/images/ninja-hacker.png" alt="Hacker ninja skills image" width={800} height={800} className="object-contain" />
           </div>
         </div>
       </Layout>
     </section>
-  )
-}
+  );
+};
 
 
 
-export default Skills
+export default Skills;
