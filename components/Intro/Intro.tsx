@@ -14,7 +14,7 @@ const Intro = () => {
               <h2 className="text-xl sm:text-5xl lg:text-6xl mb-8">Front End Developer</h2>
             </div>
 
-            <ScrollLink href='#contact' className="text-xl hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+            <ScrollLink href='#contact' className="text-xs sm:text-xl hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               Get in touch &#8594;
             </ScrollLink>
           </div>
