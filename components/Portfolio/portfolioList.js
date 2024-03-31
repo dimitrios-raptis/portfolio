@@ -62,7 +62,7 @@ const portfolioList = [
     url: 'https://baby-counseling.dimitriosraptis.com/',
     text: 'A demo site showcasing the use of React, Next.js, styling with the use of CSS-in-JS.',
     image: {
-      src: '/assets/images/baby-counseling.jpeg',
+      src: '/assets/images/baby-counseling.png',
       alt: 'Baby Counseling portfolio image'
     },
     tags: [
